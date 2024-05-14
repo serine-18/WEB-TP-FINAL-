@@ -1,0 +1,255 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        }
+ 
+    body{
+      font-family: "Poetsen One", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+    }
+    header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #5688de;
+      padding:10px;
+      background-color: white;
+      
+    }
+    .logo{
+      cursor: pointer;
+    }
+    li{
+      list-style: none;
+      display: inline-block;
+      padding: 0px 20px;
+    }
+    li a{
+        color: #5688de;
+        text-decoration: none;
+        transition: all 0.3s ease 0s;
+      
+    }
+    li a:hover{
+        text-transform: uppercase;
+        font-weight: 700;
+        color: rgb(121, 121, 210);
+    }
+   
+    .slide1{
+      background-color: rgba(164,191,236,255);
+      height: 600px;
+    }
+    .page1 {
+      display: flex;
+      justify-content: space-between; /* Add this to evenly distribute items horizontally */
+      align-items: center; /* Add this to vertically center items */
+      margin-bottom: 50px;
+    }
+    .milk-image1{
+      margin-top: 22px;
+    }
+    .discription1{
+      display: flex;
+      margin-left: 50px;
+      margin-bottom: 100px;
+      flex-direction: column;
+    } 
+    #h11{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 150px;
+      color: aliceblue;
+      
+    }
+    #p1{
+      color: white;
+      font-size: large;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .btn-1 {
+    width: 130px;
+    height: 30px;
+    margin-left: 250px;
+    position: relative; /* Change to relative positioning */
+    top: -150px; /* Adjust this value as needed */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgba(164, 191, 236, 255);
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+  }
+  .btn-1:hover {
+    background-color: #ffffff;
+    color: rgba(164,191,236,255);
+  }
+/*Strawberry Milk*/
+
+.slide2{
+  height: 600px;
+  background-color: #f3bad5;
+ }
+
+ #h12{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 100px;
+  color: #d45474;
+}
+#p2{
+  color: #d45474;
+  font-size: large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.discription2{
+display: flex;
+margin-left: 50px;
+margin-bottom: 200px;
+flex-direction: column;
+} 
+.page2{
+display: flex;
+justify-content: space-between; /* Add this to evenly distribute items horizontally */
+align-items: center; /* Add this to vertically center items */
+position: relative; /* Add this to enable relative positioning */
+top: -20px;  
+}
+.btn-2 {
+width: 130px;
+height: 30px;
+margin-left: 750px;
+position: relative; /* Change to relative positioning */
+top: -250px; 
+/* Adjust this value as needed */
+border: none;
+color: #d45474;
+text-align: center;
+text-decoration: none;
+transition-duration: 0.4s;
+cursor: pointer;
+background-color:#f3bad5;
+border: 2px solid #d45474;
+border-radius: 5px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+}
+.btn-2:hover {
+background-color:#d45474;
+color:#f3bad5;
+}
+
+ /*Banana Milk*/
+
+ .slide3{
+  height: 600px;
+  background-color: #e9c665;
+ }
+
+ #h13{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 120px;
+  color: #ffffff;
+}
+#p3{
+  color: #ffffff;
+  font-size: large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.discription3{
+display: flex;
+margin-left: 50px;
+margin-bottom: 100px;
+flex-direction: column;
+} 
+.page3{
+display: flex;
+justify-content: space-between; /* Add this to evenly distribute items horizontally */
+align-items: center; /* Add this to vertically center items */
+ 
+}
+.btn-3 {
+width: 130px;
+height: 30px;
+margin-left: 250px;
+position: relative; /* Change to relative positioning */
+top: -120px; 
+/* Adjust this value as needed */
+border: none;
+color: #ffffff;
+text-align: center;
+text-decoration: none;
+transition-duration: 0.4s;
+cursor: pointer;
+background-color:#e9c665;
+border: 2px solid #ffffff;
+border-radius: 5px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+}
+.btn-3:hover {
+background-color:#fafafa;
+color:#e9c665;
+}
+.milk-image3{
+margin-right: 70px;
+}
+  /* Blueberry Milk */
+
+  .slide4{
+    height: 600px;
+    background-color: #d3b4cc;
+   }
+
+   #h14{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 110px;
+    color: #6b5384;
+  }
+  #p4{
+    color: #6b5384;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.discription4{
+  display: flex;
+  margin-left: 70px;
+margin-bottom: 160px;
+  flex-direction: column;
+} 
+.page4{
+  display: flex;
+  justify-content: space-between; /* Add this to evenly distribute items horizontally */
+  align-items: center; /* Add this to vertically center items */
+ 
+}
+
+.btn-4 {
+  width: 130px;
+  height: 30px;
+  margin-left: 750px;
+  position: relative; /* Change to relative positioning */
+  top: -150px; 
+ /* Adjust this value as needed */
+  border: none;
+  color: #6b5384;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color:#d3b4cc;
+  border: 2px solid #6b5384;
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+}
+.btn-4:hover {
+  background-color:#6b5384;
+  color:#d3b4cc;
+}

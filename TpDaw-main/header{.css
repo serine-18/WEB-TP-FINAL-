@@ -1,0 +1,86 @@
+ header{
+      border-radius: 20px;
+     height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding:10px;
+      margin: 10px 40px;
+      
+    }
+    .logo{
+        cursor: pointer;
+        color: white;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+      }
+      li{
+        list-style: none;
+        display: inline-block;
+        padding: 0px 20px;
+      }
+      li a{
+          color: black;
+          text-decoration: none;
+          transition: all 0.3s ease 0s;
+        
+      }
+      li a:hover{
+          text-transform: uppercase;
+          font-weight: var(--font-weight-bold);
+          color: var(--secondry-color);
+          font-family:"Dancing Script", cursive;
+      }
+    h1{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 150px;
+        color: aliceblue;
+       
+    }
+    p{
+        color: white;
+        font-size: large;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .discription{
+        display: flex;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        flex-direction: column;
+        
+    }
+  
+    button {
+      width: 130px;
+      height: 30px;
+      margin-left: 250px;
+      position: relative; /* Change to relative positioning */
+      top: -650px; /* Adjust this value as needed */
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      background-color: rgba(164, 191, 236, 255);
+      border: 2px solid white;
+      border-radius: 5px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 18px;
+    }
+      
+      button:hover {
+        background-color: #ffffff;
+        color: rgba(164,191,236,255);
+      }
+      .page1 {
+        display: flex;
+        justify-content: space-between; /* Add this to evenly distribute items horizontally */
+        align-items: center; /* Add this to vertically center items */
+        position: relative; /* Add this to enable relative positioning */
+        top: -300px;      
+    }
+      
+      .milk-image1 img {    
+        margin-right: 20px;
+      }

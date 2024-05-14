@@ -1,0 +1,44 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+header{
+  font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #5688de;
+  padding:10px;
+  background-color: white;
+  height: 50px;
+  
+}
+.logo{
+  cursor: pointer;
+  font-size: 25px;
+  margin-top: 10px;
+}
+li{
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+li a{
+    color: #5688de;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+  
+}
+li a:hover{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(121, 121, 210);
+}
+.container{
+  margin-top: 50px;
+}
